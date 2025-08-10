@@ -116,3 +116,21 @@
 //   console.log(sum);
 //   i++;
 // }
+// display the first square root of a number
+// let i = 1;
+// while (i < 100) {
+//   if (i > 1 && Number.isInteger(i ** 0.5)) {
+//     break;
+//   }
+//   console.log(i);
+//   i++;
+// }
+// function getMenu() {
+//   console.log("Burger, Pizza, Pasta");
+// }
+// getMenu();
+for (var i = 0; i < 5; i++) {
+  setTimeout(function () {
+    console.log(i);
+  }, 100);
+}
